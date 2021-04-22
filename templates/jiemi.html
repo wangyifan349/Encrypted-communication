@@ -1,0 +1,20 @@
+﻿<html>
+<title>解密</title>
+<body>
+<form action="" method="post">
+<input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+<p>请输入解密内容</p>
+<p>请输入密码(16位)</p>
+<input type="text" name="key"><br>
+<p>请输入随机码</p>
+<input type="text" name="sjm"><br>
+<p>请输入解密内容</p>
+<input type="text" name="word"><br>
+<input type="submit" value="解密">
+</form>
+{% if xxx %}
+{{xxx}}
+{% else %}
+{% endif %}
+</body>
+</html>
